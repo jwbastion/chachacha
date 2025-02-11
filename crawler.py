@@ -36,6 +36,7 @@ seq_df.to_csv('seq_data.csv', encoding='utf-8-sig', index_label='번호')
 
 data = []
 
+# sequence 값으로 각 차량들의 페이지에 접속하여 필요한 정보들을 크롤링
 for seq in sequence:
     temp = []
     try:
