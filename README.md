@@ -10,12 +10,12 @@
 - **사용자 친화적 UI**: 직관적이고 깔끔한 인터페이스로 누구나 쉽게 사용할 수 있습니다.
 
 ## 기술 스택
-### **Frontend**
-+ HTML / CSS
-+ JavaScript
-### **Backend**
-+ Selenium (웹 크롤링)
-+ Python (Flask)
++ **Frontend**
+  + HTML / CSS
+  + JavaScript
++ **Backend**
+  + Selenium (웹 크롤링)
+  + Python (Flask)
 
 ## MEMBERS
 | Name           | Role |
