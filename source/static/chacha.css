@@ -1,0 +1,158 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center !important;
+    background-color: darkseagreen !important;
+}
+
+.filter-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 100px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.filter-group label {
+    font-weight: bold;
+}
+
+select, button {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.item-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.color-box {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+}
+
+#min-price, #max-price {
+    width: 80px;
+    height: 30px;
+}
+
+strong{
+    font-size: 16px;
+}
+
+h2{
+    font-weight: bold !important;
+    margin-top: 30px !important;
+}
+
+.btn1{
+	background-color:dimgray;
+	color: white;
+	font-size: 16pt;
+	border: none;
+	
+	width: 200px;
+	height: 60px;
+	opacity: 0;
+	animation: scaleFadeIn 6s ease-in forwards;
+}
+
+.scale-fade-in {
+	opacity: 0;
+	transform: scale(0.8);
+	animation: scaleFadeIn 2s ease-out forwards;
+    font-size: 40pt;
+    color : gold;
+    font-weight: bold;
+	font-family: Arial;
+	text-align: center;
+	margin-top: 200px;
+}
+
+@keyframes scaleFadeIn {
+	from {
+		opacity: 0;
+		transform: scale(0.8);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.center{
+	justify-content: center;
+}
+
+.fade-in{
+	opacity: 0;
+    animation: fadeIn 5s ease-in forwards;
+	font-size: 24pt;
+	font-family: Arial;
+	text-align: center;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(40px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
