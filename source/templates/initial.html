@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Server</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='chacha.css' ) }}" />
+</head>
+
+<body>
+    <p class='scale-fade-in'> KB 차찾자 </p>
+    <br>
+    <img class='fade-in' src='static/benz.png' alt="benz" width="60" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img class='fade-in' src='static/audi.png' alt="audi" width="60" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img class='fade-in' src='static/bmw.png' alt="bmw" width="60" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img class='fade-in' src='static/honda.png' alt="honda" width="60" height="60">
+    <p style="margin-bottom: 150px;">
+    <form class='center' action="/find" method="get" style="display:flex;">
+        <button type="submit" class='btn1'>SEARCH</button>
+    </form>
+    </p>
+</body>
+
+</html>
